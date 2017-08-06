@@ -1,0 +1,21 @@
+{
+    "name": "NoFacebook",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "This extention will open up a page from your bookmark folder whenever you open up facebook",
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "icons": { 
+        "16": "icon.png",
+        "48": "icon.png"
+    },
+    "background": {
+        "scripts": ["export.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "bookmarks",
+        "tabs"
+    ]
+}
